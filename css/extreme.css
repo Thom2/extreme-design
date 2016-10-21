@@ -179,6 +179,8 @@ pub-list {
   vertical-align: top;
   padding: 5px 0px 5px 5px;
   float: left;
+  max-width: 95px;
+  
 }
 
 .pub-link a, .pub-link a:visited {
@@ -188,6 +190,13 @@ pub-list {
 
 .pub-link a:hover, .pub-link a:active, .pub-link a:focus {
     color: #000;
+}
+
+.pub-cat {
+  font-size: 1.0em;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  clear: both;
 }
 
 .group-link {
