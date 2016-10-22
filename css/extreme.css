@@ -129,6 +129,22 @@ header, section, footer, aside, article, figure {
 }
 
 
+/***********   General   **********/
+.gen-link {
+  font-size: 1.0em;
+  font-weight: bold;
+  padding: 5x 0px 5px 5px;
+}
+
+.gen-link a, .gen-link a:visited {
+  text-decoration: none;
+  color: #FF6600;
+}
+
+.gen-link a:hover, .gen-link a:active, .gen-link a:focus {
+    color: #000;
+}
+
 /***********   Current Page Menu   **********/
 .home a.home,
 .research a.research,
@@ -179,8 +195,7 @@ pub-list {
   vertical-align: top;
   padding: 5px 0px 5px 5px;
   float: left;
-  max-width: 95px;
-  
+  max-width: 95px;  
 }
 
 .pub-link a, .pub-link a:visited {
