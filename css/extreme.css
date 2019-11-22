@@ -57,6 +57,9 @@ header {
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-top: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 .content {
     margin-top: 40px;
